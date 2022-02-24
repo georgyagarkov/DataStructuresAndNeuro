@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Default", "Default\Default.csproj", "{335FE507-2005-4ECC-857A-2525FB89C48A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProgramm", "Default\MainProgramm.csproj", "{335FE507-2005-4ECC-857A-2525FB89C48A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked-List", "Linked-List\Linked-List.csproj", "{B9666547-3728-4615-B37B-0B15D0DC8FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked-List", "Linked-List\Linked-List.csproj", "{B9666547-3728-4615-B37B-0B15D0DC8FC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
