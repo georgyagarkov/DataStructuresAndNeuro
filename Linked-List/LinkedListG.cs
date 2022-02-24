@@ -46,7 +46,6 @@ namespace LinkedList
             tail = NewItem;
             count++;
         }
-
         public void PopBack()
         {
             if (count == 0) throw new InvalidOperationException("List is empty");
