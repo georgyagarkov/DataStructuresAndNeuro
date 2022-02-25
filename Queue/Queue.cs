@@ -1,4 +1,6 @@
-﻿namespace Queue
+﻿using System.Collections.Generic;
+
+namespace Queue
 {
     public class Queue<T>
     {
