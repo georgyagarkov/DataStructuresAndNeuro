@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProgramm", "Default\Mai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked-List", "Linked-List\Linked-List.csproj", "{B9666547-3728-4615-B37B-0B15D0DC8FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{4B0D11F1-8CF1-4934-BCDC-C5ADFDC5AAC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj", "{4B0D11F1-8CF1-4934-BCDC-C5ADFDC5AAC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Set", "Set\Set.csproj", "{DF8D0E4F-011D-4A6A-B290-66A3D271609D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Set", "Set\Set.csproj", "{DF8D0E4F-011D-4A6A-B290-66A3D271609D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Map", "Map\Map.csproj", "{69FB7E14-F16E-4E66-B95C-B065CE199968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DF8D0E4F-011D-4A6A-B290-66A3D271609D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8D0E4F-011D-4A6A-B290-66A3D271609D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8D0E4F-011D-4A6A-B290-66A3D271609D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FB7E14-F16E-4E66-B95C-B065CE199968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FB7E14-F16E-4E66-B95C-B065CE199968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FB7E14-F16E-4E66-B95C-B065CE199968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FB7E14-F16E-4E66-B95C-B065CE199968}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

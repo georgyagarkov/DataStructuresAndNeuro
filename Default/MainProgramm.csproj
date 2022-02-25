@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Linked-List\Linked-List.csproj" />
+    <ProjectReference Include="..\Map\Map.csproj" />
     <ProjectReference Include="..\Queue\Queue.csproj" />
     <ProjectReference Include="..\Set\Set.csproj" />
   </ItemGroup>
