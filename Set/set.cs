@@ -1,4 +1,10 @@
-﻿namespace Set
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+
+
+namespace Set
 {
     public class Set<T> : IEnumerable<T>
     {
@@ -49,13 +55,42 @@
         }
         public static bool Subset(Set<T> set1, Set<T> set2)
         {
-            if (set1 == null){throw new ArgumentNullException(nameof(set1));}
-            if (set2 == null){throw new ArgumentNullException(nameof(set2));}
-
+            if (set1 == null) throw new ArgumentNullException(nameof(set1)); 
+            if (set2 == null) throw new ArgumentNullException(nameof(set2));
             var result = set1._items.All(s => set2._items.Contains(s));
             return result;
         }
 
+        public static Set<T> Difference(Set<T> set1, Set<T> set2)
+        {
+            if (set1 == null) throw new ArgumentNullException(nameof(set1));
+            if (set2 == null) throw new ArgumentNullException(nameof(set2));
+            var resultSet = new Set<T>();
+            foreach (var item in set1._items)
+            {
+                if (!set2._items.Contains(item))
+                {
+                    resultSet.Add(item);
+                }
+            }
+            foreach (var item in set2._items)
+            {
+                if (!set1._items.Contains(item))
+                {
+                    resultSet.Add(item);
+                }
+            }
+            resultSet._items = resultSet._items.Distinct().ToList();
+            return resultSet;
+        }
+        public IEnumerator<T> GetEnumerator()
+        {
+            return _items.GetEnumerator();
+        }
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return _items.GetEnumerator();
+        }
 
 
     }
